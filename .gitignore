@@ -1,0 +1,35 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+.ENV/
+
+# macOS system files
+.DS_Store
+
+# VS Code config
+.vscode/
+
+# Local files
+*.log
+*.sqlite3
+
+# JSON files (optional if user-generated)
+personal_affirmations.json
+community_affirmations.json
+default_affirmations.json
+
+# Python environment & packaging
+*.egg-info/
+*.egg
+dist/
+build/
+
+# PyInstaller
+*.spec
