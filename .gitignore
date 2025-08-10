@@ -21,9 +21,10 @@ ENV/
 *.sqlite3
 
 # JSON files (optional if user-generated)
-personal_affirmations.json
-community_affirmations.json
-default_affirmations.json
++ # personal_affirmations.json
++ # community_affirmations.json
++ # default_affirmations.json
+
 
 # Python environment & packaging
 *.egg-info/
@@ -33,3 +34,4 @@ build/
 
 # PyInstaller
 *.spec
+key.key
